@@ -34,8 +34,10 @@ def resta_dos_numeros(x, y):
 
 if __name__ == "__main__":
   print('Suma de dos números')
+
   x = int(input("Ingresa el primer número: "))
   y = int(input("Ingresa el segundo número: "))
   resultado = suma_dos_numeros(x, y)
+
   print(f"La suma de el número {x} + {y} = {resultado}")
-  print('Cálculo finalizado')
+  print("Cálculo finalizado")
